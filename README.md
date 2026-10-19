@@ -22,5 +22,4 @@ Grid Bootstrap adalah sistem tata letak yang membagi halaman menjadi 12 kolom un
 
 5. Gambar Responsif
 Agar gambar pada website responsif dan menyesuaikan ukuran layar perangkat, digunakan class Bootstrap .img-fluid pada elemen <img>. Class ini menerapkan lebar maksimum 100% dan tinggi otomatis sehingga gambar tidak melebihi wadahnya dan tetap mempertahankan proporsi aslinya.
-Contoh kodenya seperti ini:
-<img src="gambar.jpg" class="img-fluid" alt="Gambar"> 
+
