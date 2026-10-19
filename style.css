@@ -1,0 +1,94 @@
+:root {
+  --warna-ruang-baca: #008a52;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
+  background: #f8f9fa;
+}
+
+.navbar-ruang-baca {
+  background-color: var(--warna-ruang-baca);
+  min-height: 52px;
+}
+
+.navbar-ruang-baca .navbar-brand {
+  font-size: 1rem;
+}
+
+.navbar-ruang-baca .nav-link {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.navbar-ruang-baca .nav-link:hover,
+.navbar-ruang-baca .nav-link:focus {
+  color: #e2f5ec;
+}
+
+.login-area {
+  min-height: calc(100vh - 52px);
+  padding: 2.5rem 0;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.login-card {
+  border: 0;
+  border-radius: 0.35rem;
+  overflow: hidden;
+}
+
+.login-card .card-body {
+  background-color: #fff;
+}
+
+.login-card h1 {
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.login-card .form-label,
+.login-card .form-check-label {
+  font-size: 0.9rem;
+}
+
+.login-card .form-control {
+  font-size: 0.9rem;
+}
+
+.login-card .btn-success {
+  --bs-btn-bg: var(--warna-ruang-baca);
+  --bs-btn-border-color: var(--warna-ruang-baca);
+  --bs-btn-hover-bg: #007546;
+  --bs-btn-hover-border-color: #007546;
+  font-size: 0.9rem;
+}
+
+.login-card .card-footer {
+  background-color: #f8f9fa;
+}
+
+.forgot-link {
+  color: #008a68;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 575.98px) {
+  .login-area {
+    min-height: calc(100vh - 52px);
+    padding: 1.5rem 0;
+    align-items: flex-start;
+  }
+
+  .login-card .card-body {
+    padding: 1.25rem !important;
+  }
+
+  .login-card h1 {
+    font-size: 1.2rem;
+  }
+}
